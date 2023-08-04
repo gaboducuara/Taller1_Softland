@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
-//Pide al usuario dos
-//números enteros y muestra todos los
+//Pide al usuario dos números enteros y muestra todos los
 //números primos que se encuentran en ese rango
 public class Ejercicio_17 {
     public static void main(String[] args) {
@@ -12,6 +11,7 @@ public class Ejercicio_17 {
         int numero_2 = scanner.nextInt();
         scanner.close();
 
+        System.out.println(" ------- A CONTINUACION LA RESPUESTA ------- ");
         for (int i = numero_1; i <= numero_2; i++) {
             if (esPrimo(i)) {
                 System.out.println(i);

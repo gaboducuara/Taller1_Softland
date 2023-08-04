@@ -7,7 +7,7 @@ public class Ejercicio_10 {
         int numero_1 = 0;
         int numero_2 = 1;
         System.out.println(" ------- A CONTINUACION LA RESPUESTA ------- ");
-        System.out.print("los siguientes resultados: " + numero_1 + ", " + numero_2);
+        System.out.print("los siguientes resultados son : " + numero_1 + ", " + numero_2);
         for (int i = 0; i < 8; i++) {
             int siguienteNumero = numero_1 + numero_2;
             System.out.print(", " + siguienteNumero);

@@ -9,6 +9,8 @@ public class Ejercicio_16 {
         int numero = scanner.nextInt();
         int num_uno = 0;
         int num_dos = 1;
+
+        System.out.println(" ------- A CONTINUACION LA RESPUESTA ------- ");
         System.out.print(num_uno + " " + num_dos);
         for (int i = 2; i < numero; i++) {
             int c = num_uno + num_dos;
